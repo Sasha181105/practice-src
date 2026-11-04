@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Student: $(git config user.name)" > me.txt
+echo "Created: $(date)" >> me.txt
+echo "Hello from runme" >> me.txt
